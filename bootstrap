@@ -4,3 +4,5 @@ autoreconf -iv
 cd po
 intltool-update --pot
 cd ..
+intltoolize
+mv po/Makefile.in.in po/Makefile.in
